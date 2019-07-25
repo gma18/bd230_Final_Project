@@ -1,10 +1,10 @@
 # Big Data 230 Final Project
 
 ## Project Description
-This project attempts .
+This project attempts to determine if a stock can move independently of the mark.
 
 ## Data Source
-The data sources will be provided 
+The data sources will be provided https://www.alphavantage.co/.
 
 ## Tools
 The tools used in this project are:
@@ -12,4 +12,4 @@ The tools used in this project are:
 * PySpark
 
 ## Questions Answered
-B
+Does a particular stock move indepently of the market?
