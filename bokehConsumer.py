@@ -204,10 +204,10 @@ if __name__ == '__main__':
   dots5 = plot2.circle(time, value, size=12, color='green', alpha=0.5, legend="Boeing (BA)")
 
   plot3 = figure(plot_width=500, plot_height=500, title="Volume and Price Slope Over Last Two Messages")
-  r6 = plot3.line(time, value, color='red', legend="MSFT Vol Slope")
-  dots6 = plot3.circle(time, value, size=12, color='red', alpha=0.5, legend="MSFT Vol Slope")
-  r7 = plot3.line(time, value, color='firebrick', legend="MSFT Price Slope")
-  dots7 = plot3.circle(time, value, size=12, color='firebrick', alpha=0.5, legend="MSFT Price Slope")
+  r7 = plot3.line(time, value, color='red', legend="MSFT Vol Slope")
+  dots7 = plot3.circle(time, value, size=12, color='red', alpha=0.5, legend="MSFT Vol Slope")
+  r6 = plot3.line(time, value, color='firebrick', legend="MSFT Price Slope")
+  dots6 = plot3.circle(time, value, size=12, color='firebrick', alpha=0.5, legend="MSFT Price Slope")
 
   # check for new kafka events every second
   curdoc().add_periodic_callback(lambda: update(c, df, df2, df3, df4, df5, df6, df7), 1000)
